@@ -1,0 +1,170 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    min-height: 50vh;
+    align-items: center;
+    background-color: #1F2937;
+    flex: 1;
+}
+.container{
+    padding:16px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+.main-text{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.hero{
+    margin-right: 40px;
+    
+}
+.btn-header{
+    background-color: #3882F6;
+    padding: 5px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    border: none;
+    color: white;
+}
+
+.left-link h2{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.hero h1{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+    .header-img{
+    max-width: 500px;
+    max-height: 220px;
+}
+/* SECTION 2 */
+.info{
+    text-align: center;
+    padding: 40px;
+}
+
+.info .title h1{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+    margin-bottom: 32px;
+}
+.info-sec{
+    max-width: 200px;
+
+}
+.info-sec img{
+    max-width: 150px;
+}
+
+.info-cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 52px;
+}
+.text{
+    text-align: center;
+}
+/* SECTION 3 */
+.quote{
+    background-color: #E5E7EB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    
+}
+.quote-cont{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    
+}
+.text-quote{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+.author p{
+    display: flex;
+    justify-content: flex-end;
+    color: black;
+    font-size: 20px;
+}
+
+/* SECTION 4 */
+.modal-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    height: 50vh;
+}
+.modal{
+    background-color: #3882F6;
+    padding: 40px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 45%;
+    gap: 60px;
+    color: white;
+    border-radius: 10px;
+}
+.btn-fourth{
+    background-color: #3882F6;
+    border: 2px solid white;
+    padding: 7px 20px;
+    border-radius: 5px;
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+    
+}
+
+/* Footer */
+.footer{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-size: 16px;
+}
