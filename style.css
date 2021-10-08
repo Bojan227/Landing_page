@@ -39,6 +39,7 @@ body{
     margin-top: 10px;
     border: none;
     color: white;
+    cursor: pointer;
 }
 
 .left-link h2{
